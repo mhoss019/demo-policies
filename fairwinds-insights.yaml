@@ -1,0 +1,11 @@
+options:
+  organization: acme-co
+  hostname: https://staging.insights.fairwinds.com
+
+  baseBranch: main
+
+# These manifests will be scanned for configuration issues.
+manifests:
+  yaml:
+  - ./deploy/dashboard.yaml
+  - ./deploy/webhook.yaml
