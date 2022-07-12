@@ -4,6 +4,10 @@ options:
 
   baseBranch: main
 
+images:
+  docker:
+  - alpine:3.13.0
+
 # These manifests will be scanned for configuration issues.
 manifests:
   yaml:
